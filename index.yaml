@@ -548,4 +548,19 @@ entries:
     urls:
     - https://github.com/helm/charts-repo-actions-demo/releases/download/example-v2-0.2.2/example-v2-0.2.2.tgz
     version: 0.2.2
+  fastapi-example:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-04-03T11:49:09.792470334Z"
+    description: A Helm chart example for Kubernetes that will deploy a FastAPI.
+    digest: e40ce358cfbde3e38bc782368be672989aeb1e39e3840c2f1626ddb6571b8281
+    maintainers:
+    - email: bart.dewancker@araani.com
+      name: Bart Dewancker
+    name: fastapi-example
+    sources:
+    - https://github.com/BartDewancker/nathansegers-mlops-helm-demo
+    urls:
+    - https://github.com/BartDewancker/nathansegers-mlops-helm-demo/releases/download/fastapi-example-1.0.0/fastapi-example-1.0.0.tgz
+    version: 1.0.0
 generated: "2019-12-08T02:57:21.985425597Z"
